@@ -1,0 +1,16 @@
+.geoCurrent li {
+  list-style: none;
+}
+.geoCurrent {
+  text-align: center;
+  margin-top: 10px;
+}
+.geoCurrentHid li {
+  margin-top: 0;
+  list-style: none;
+}
+
+.geoCurrent:hover {
+  color: rgb(94, 126, 158);
+  cursor: pointer;
+}

@@ -1,0 +1,13 @@
+.PageNav {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(55, 74, 93);
+  padding: 10px;
+  font-family: monospace;
+  color: aliceblue;
+}
+@media only screen and (max-width: 600px) {
+  .PageNav {
+    font-size: small;
+  }
+}

@@ -1,0 +1,15 @@
+.input {
+  border: none;
+  background-color: rgb(143, 199, 255);
+  padding-top: 5%;
+  padding-bottom: 5%;
+  font-family: monospace;
+  outline: none;
+  display: inline-block;
+}
+input:focus {
+  background-color: white;
+}
+.form {
+  display: block;
+}
