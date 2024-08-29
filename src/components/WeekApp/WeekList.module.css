@@ -1,0 +1,60 @@
+.weekList {
+  text-align: center;
+  border: 5px solid white;
+  display: grid;
+  background-color: rgb(55, 74, 93);
+  gap: 2px 2px;
+  padding: 5px;
+  grid-template-columns: repeat(6, auto);
+  height: 180px;
+  margin-left: 5%;
+}
+
+.weekList ul {
+  list-style: none;
+}
+
+.item {
+  margin-top: 10%;
+  margin-left: 35%;
+  list-style: none;
+  color: aliceblue;
+  font-family: monospace;
+  width: fit-content;
+  height: 190px;
+  text-align: center;
+  border: 5px solid white;
+  padding: 5px;
+  background-color: rgb(55, 74, 93);
+  font-size: large;
+}
+
+@media only screen and (max-width: 600px) {
+  .weekList {
+    background-color: rgb(55, 74, 93);
+    gap: 2px 2px;
+    padding: 5px;
+    grid-template-columns: repeat(2, auto);
+    height: 500px;
+    margin-left: 0%;
+  }
+
+  .weekList ul {
+    list-style: none;
+  }
+
+  .item {
+    margin-top: 10%;
+    margin-left: 0%;
+    list-style: none;
+    color: aliceblue;
+    font-family: monospace;
+    width: fit-content;
+    height: 190px;
+    text-align: center;
+    border: 5px solid white;
+    padding: 5px;
+    background-color: rgb(55, 74, 93);
+    font-size: large;
+  }
+}

@@ -1,0 +1,20 @@
+li {
+  list-style: none;
+  color: aliceblue;
+  font-family: monospace;
+  background-color: rgb(55, 74, 93);
+}
+img {
+  width: 100px;
+  height: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+  li {
+    font-size: small;
+  }
+  img {
+    width: 11vh;
+    height: 11vh;
+  }
+}
