@@ -1,0 +1,8 @@
+.wholeApp {
+  background-color: rgb(143, 199, 255);
+  position: relative;
+}
+
+.diva {
+  display: flex;
+}
