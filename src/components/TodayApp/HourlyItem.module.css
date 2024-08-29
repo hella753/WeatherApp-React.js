@@ -1,0 +1,14 @@
+.item {
+  list-style: none;
+}
+li {
+  list-style: none;
+  color: aliceblue;
+  font-family: monospace;
+  background-color: rgb(55, 74, 93);
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}

@@ -1,0 +1,18 @@
+.hourlyList {
+  text-align: center;
+  border: 5px solid white;
+  display: grid;
+  background-color: rgb(55, 74, 93);
+  gap: 30px 30px;
+  padding: 10px;
+  grid-template-columns: auto auto auto auto auto auto;
+}
+
+.hourlyList ul {
+  list-style: none;
+}
+@media only screen and (max-width: 600px) {
+  .hourlyList {
+    grid-template-columns: auto auto;
+  }
+}
