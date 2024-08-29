@@ -1,0 +1,17 @@
+.TempNowContainer {
+  text-align: center;
+  border: 5px solid white;
+  width: 40%;
+  height: 30%;
+  display: flex;
+  margin-left: 10%;
+  margin-top: 170px;
+  background-color: rgb(55, 74, 93);
+}
+@media only screen and (max-width: 600px) {
+  .TempNowContainer {
+    width: 200px;
+    margin-left: 5%;
+    height: 150px;
+  }
+}

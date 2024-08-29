@@ -1,0 +1,22 @@
+.img {
+  width: 200px;
+  height: 200px;
+}
+
+.tempNow {
+  width: 200px;
+  height: 200px;
+  margin-top: 10%;
+  margin-left: 5%;
+  margin-bottom: 10%;
+}
+@media only screen and (max-width: 600px) {
+  .tempNow {
+    width: 30%;
+    height: 30%;
+  }
+  .img {
+    width: 11vh;
+    height: 11vh;
+  }
+}
