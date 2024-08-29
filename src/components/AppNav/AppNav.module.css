@@ -1,0 +1,98 @@
+.nav {
+  height: 100vh;
+  width: 200px;
+  background-color: rgb(55, 74, 93);
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 200px;
+  text-align: start;
+}
+
+.hideNav {
+  height: 100vh;
+  width: 200px;
+  background-color: rgb(143, 199, 255);
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 200px;
+  opacity: 0;
+}
+
+.nav li {
+  list-style: none;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: large;
+  margin-top: 50px;
+}
+
+.nav li a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav li a:hover {
+  color: rgb(94, 126, 158);
+}
+@media only screen and (max-width: 600px) {
+  .nav {
+    height: 100vh;
+    width: 70px;
+    background-color: rgb(55, 74, 93);
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 200px;
+    text-align: start;
+    opacity: 100;
+  }
+  .hideNav {
+    height: 100vh;
+    width: 70px;
+    background-color: rgb(55, 74, 93);
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 200px;
+    text-align: start;
+    opacity: 100;
+  }
+  .isToday {
+    height: 3000px;
+    width: 70px;
+    background-color: rgb(55, 74, 93);
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 200px;
+    text-align: start;
+    opacity: 100;
+  }
+  .nav li {
+    list-style: none;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: large;
+    margin-top: 50px;
+  }
+
+  .hideNav li {
+    list-style: none;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: large;
+    margin-top: 50px;
+  }
+  .nav li a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .nav li a:hover {
+    color: rgb(94, 126, 158);
+  }
+  .hideNav li a:hover {
+    color: rgb(94, 126, 158);
+  }
+  .hideNav li a {
+    color: white;
+    text-decoration: none;
+  }
+}
